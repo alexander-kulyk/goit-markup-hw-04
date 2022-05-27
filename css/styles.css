@@ -26,6 +26,7 @@ html{
     --focus-back-color: rgba(0, 0, 0, 0);
     --border-color-head: #ECECEC;
     --border-color: #EEEEEE;
+    --social-icon-color: #AFB1B8;
 
 }
 body{
@@ -359,7 +360,7 @@ body{
 }
 .our-team-list p{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 
     color: var(--second-text-color);
     font-size: 16px;
@@ -390,7 +391,34 @@ body{
 .our-team-list .item:nth-child(4n) {
     margin-right: 0;
 }
+.social-icon-list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.social-icon{
+   width: 44px;
+   height: 44px;
+    
+}
+.social-svg{
+    width: 20px;
+    height: 20px;
 
+    fill: var(--social-icon-color);
+}
+.social-svg:hover{
+    fill: var(--body-background-color);
+}
+.social-icon{
+    padding: 12px 12px;
+    margin-right: 10px;
+}
+.social-icon:hover{
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
 /* Футер */
 .footer {
     padding-top: 60px;
