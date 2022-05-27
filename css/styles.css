@@ -142,15 +142,7 @@ body{
 .contact a:focus {
     background-color:var(--focus-back-color);
 }
-.contact .icon-mailto::before {
-    display: block;
-    content:'';
-    width: 16px;
-    height: 12px;
-    background-image: url(../images/envelope.svg);
-    background-position: center;
-    /* background-color: aqua; */
-}
+
  
 /* Герой */
 
@@ -258,11 +250,20 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.specifics-list .item::before{
+.icon-svg {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.icon-antenna{
+    width: 70px;
+    height: 70px;
+}
+/* .specifics-list .item::before{
     display: block;
     content:'';
 
-    /* width: 270px; */
     height: 120px;
     margin-bottom: 30px;
 
@@ -282,7 +283,7 @@ body{
 }
 .icon-astronaut::before {
     background-image: url(../images/astronaut\ 1.svg);
-}
+} */
 /* Чим ми займаємось */
 
 .what-we-do {
