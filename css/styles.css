@@ -142,8 +142,32 @@ body{
 .contact a:focus {
     background-color:var(--focus-back-color);
 }
+.icon-envelope{
+    width: 16px;
+    height: 12px;
 
- 
+    margin-right: 10px;
+    fill: var(--second-text-color);
+    cursor: pointer;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+.icon-envelope:hover {
+    fill: var(--accent-color);
+}
+ .icon-smartphone{
+     width: 10px;
+     height: 16px;
+     margin-right: 10px;
+
+    fill: var(--second-text-color);
+    cursor: pointer;
+ }
+ .icon-smartphone:hover{
+    fill: var(--accent-color);
+ }
 /* Герой */
 
 /* overlay */
