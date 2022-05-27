@@ -250,7 +250,7 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.icon-svg {
+.icon-specific {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
@@ -258,10 +258,11 @@ body{
     background-color: #F5F4FA;
     border-radius: 4px;
 }
-.icon-antenna{
+.icon-svg{
     width: 70px;
     height: 70px;
 }
+.
 /* .specifics-list .item::before{
     display: block;
     content:'';
