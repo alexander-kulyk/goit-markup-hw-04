@@ -617,6 +617,7 @@ color:var(--logo-footer-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .project-list{
