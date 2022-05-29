@@ -60,6 +60,11 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
  }
+ /* image */
+ .image{
+     display: block;
+     width: 100%;
+ }
 .header{
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -275,12 +280,14 @@ body{
     letter-spacing: 0.03em;
 }
 .icon-specific {
-    width: 270px;
     height: 120px;
-    padding: 25px 100px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
     border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icon-svg{
     width: 70px;
@@ -392,32 +399,37 @@ body{
 }
 .social-icon-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-.social-icon{
-   width: 44px;
-   height: 44px;
     
-}
-.social-svg{
-    width: 20px;
-    height: 20px;
+    padding-left: 0;
 
+
+}
+.social-icon-link{
+    width:44px;
+    height: 44px;
+}
+
+.social-icon-link:hover{
+    background-color: var(--accent-color);
+    fill: var(--body-background-color);
+    border-radius: 50%;
+
+}
+
+.social-svg{
+    margin: 12px;
     fill: var(--social-icon-color);
 }
-.social-svg:hover{
-    fill: var(--body-background-color);
+.social-icon {
+    display: flex;
 }
-.social-icon{
-    padding: 12px 12px;
-    margin-right: 10px;
+.social-icon:not(:last-child){
+    padding-right: 10px;
 }
-.social-icon:hover{
-    background-color: var(--accent-color);
-    border-radius: 50%;
-}
+
 
  /* Постійні клієнти */
  .client-list{
@@ -475,7 +487,7 @@ color:var(--logo-footer-color);
     margin-left: 0;
 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -674,6 +686,6 @@ color:var(--logo-footer-color);
     /* border: 1px solid;
     border-color: var(--border-color); */
 }
-.project-list img {
+/* .project-list img {
     display: block;
-}
+} */
