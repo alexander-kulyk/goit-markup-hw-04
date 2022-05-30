@@ -142,38 +142,24 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.contact a:hover,:focus{
-    color: var(--accent-color);
-}
-.contact a:focus {
-    background-color:var(--focus-back-color);
-}
-.icon-envelope{
-    width: 16px;
-    height: 12px;
-
-    margin-right: 10px;
-    fill: var(--second-text-color);
-    cursor: pointer;
-}
-.contact-link{
+.contact-link {
     display: flex;
     align-items: center;
 }
-.icon-envelope:hover {
-    fill: var(--accent-color);
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
 }
- .icon-smartphone{
-     width: 10px;
-     height: 16px;
-     margin-right: 10px;
+.icon-envelope,.icon-smartphone {
+    margin-right: 10px;
+}
+.icon-contact{
+    fill: currentColor;
+}
 
-    fill: var(--second-text-color);
-    cursor: pointer;
- }
- .icon-smartphone:hover{
-    fill: var(--accent-color);
- }
+
+
+ 
 /* Герой */
 
 /* overlay */
@@ -412,9 +398,10 @@ body{
     border-radius: 50%;
     color: var(--social-icon-color);
 }
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
     background-color: var(--accent-color);
-    color: white;
+    color: var(--body-background-color);
 }
 
 .social-icon-team{
@@ -426,7 +413,7 @@ body{
 
 .social-svg{
     margin: 12px;
-    fill: var(--social-icon-color);
+    fill: currentColor;
 } 
 .social-icon {
     display: flex;
