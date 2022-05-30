@@ -265,18 +265,14 @@ body{
 .icon-specific {
     height: 120px;
     margin-bottom: 30px;
-    background-color: #F5F4FA;
+    background-color:var(--portfolio-button-color);
     border-radius: 4px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon-svg{
-    width: 70px;
-    height: 70px;
-}
-.
+
 /* .specifics-list .item::before{
     display: block;
     content:'';
@@ -301,6 +297,8 @@ body{
 .icon-astronaut::before {
     background-image: url(../images/astronaut\ 1.svg);
 } */
+
+
 /* Чим ми займаємось */
 
 .what-we-do {
