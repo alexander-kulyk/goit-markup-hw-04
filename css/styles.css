@@ -410,13 +410,13 @@ body{
 .social-icon-link{
     width:44px;
     height: 44px;
+    border-radius: 50%;
 }
 
 .social-icon-link:hover{
     background-color: var(--accent-color);
-    fill: var(--body-background-color);
-    border-radius: 50%;
-
+}
+.social-svg:hover{ fill: var(--body-background-color);
 }
 
 .social-svg{
@@ -444,24 +444,22 @@ body{
  .client-logo{
      width: 170px;
      height: 92px;
-     padding: 16px 32px;
-
-     border: 1px solid var(--social-icon-color);
-     border-radius: 4px;
+     
  }
  .client-icon{
-     width: 106px;
-     height: 60px;
-
      fill: var(--social-icon-color);
  }
- .client-icon:hover{
-     fill: var(--accent-color);
+ .link-client-logo{
+
+    
+    border: 1px solid var(--social-icon-color);
+    border-radius: 4px;
  }
- .client-logo:hover{
+ 
+ /* .client-logo:hover{
     border: 1px solid var(--accent-color);
     cursor: pointer;
- }
+ } */
 /* Футер */
 .footer {
     padding-top: 60px;
@@ -534,9 +532,7 @@ color:var(--logo-footer-color);
     display: flex;
     flex-direction: column;
 }
-.social-list-footer{
-    padding-left: 0;
-}
+
 .title-social-h2{
     color: var(--body-background-color);
 
@@ -548,12 +544,12 @@ color:var(--logo-footer-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.social-icon-footer{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-}
 .social-svg-footer{
     fill: var(--body-background-color);
+}
+.icon-back {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 /* Портфоліо */
 .portfolio {
