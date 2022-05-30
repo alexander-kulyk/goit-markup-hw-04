@@ -1,0 +1,25 @@
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--color-svg-icon);
+    transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+
+    .social-icon:hover,
+    .social-icon:focus {
+        background-color: var(--main-color);
+        color: var(--color-main-light);
+    }
+}
+
+.iteam-card__social-iteam {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+.iteam-card__icon {
+    fill: currentColor;
+}

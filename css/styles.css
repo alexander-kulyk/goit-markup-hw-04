@@ -406,21 +406,28 @@ body{
     padding-left: 0;
 }
 .social-icon-link{
+    display: block;
     width:44px;
     height: 44px;
     border-radius: 50%;
+    color: var(--social-icon-color);
+}
+.social-icon-link:hover {
+    background-color: var(--accent-color);
+    color: white;
 }
 
-.social-icon-link:hover{
-    background-color: var(--accent-color);
+.social-icon-team{
+    fill: currentColor;
 }
-.social-svg:hover{ fill: var(--body-background-color);
-}
+
+/* .social-svg:hover{ fill: var(--body-background-color);
+} */
 
 .social-svg{
     margin: 12px;
     fill: var(--social-icon-color);
-}
+} 
 .social-icon {
     display: flex;
 }
