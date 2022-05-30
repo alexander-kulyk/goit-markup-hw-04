@@ -434,20 +434,23 @@ body{
      display: flex;
      justify-content: center;
  }
- .client-icon{
-     fill: var(--social-icon-color);
- }
+ 
  .link-client-logo{
     width: 170px;
     height: 92px;
     padding: 12px 32px;
 
+    color: var(--social-icon-color);
     border: 1px solid var(--social-icon-color);
     border-radius: 4px;
  }
- .link-client-logo:hover{
+ .link-client-logo:hover,
+ .link-client-logo:focus{
+    color: var(--accent-color);
     border: 1px solid var(--accent-color);
-    cursor: pointer;
+ }
+ .client-icon{
+     fill: currentColor;
  }
 
 /* Футер */
