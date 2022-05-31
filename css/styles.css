@@ -387,9 +387,12 @@ body{
     padding-left: 0;
 }
 .social-icon-link{
-    display: block;
-    width:44px;
+    width: 44px;
     height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: var(--social-icon-color);
 }
@@ -407,7 +410,6 @@ body{
 } */
 
 .social-svg{
-    margin: 12px;
     fill: currentColor;
 } 
 .social-icon {
@@ -429,14 +431,18 @@ body{
  }
   
  .client-logo{
-     display: flex;
-     justify-content: center;
+     width: calc((100% - 150px)/6);
+ }
+ .client-logo:not(:last-child){
+     margin-right: 30px;
  }
  
  .link-client-logo{
-    width: 170px;
     height: 92px;
-    padding: 12px 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     color: var(--social-icon-color);
     border: 1px solid var(--social-icon-color);
@@ -495,7 +501,6 @@ color:var(--logo-footer-color);
 }
 .contact-footer a:hover {
     color: var(--accent-color);
-
 }
 .contact-footer a:focus {
     background-color:var(--focus-back-color);
